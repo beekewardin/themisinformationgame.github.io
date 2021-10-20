@@ -6,7 +6,7 @@ how it can be used to conduct studies.
 ### Source Code
 The source code of The Misinformation Game can be found
 on Github, at
-https://github.com/TheMisinformationGame/MisinformationGame.
+[https://github.com/TheMisinformationGame/MisinformationGame](https://github.com/TheMisinformationGame/MisinformationGame).
 If you find any issues with the application, then please
 help us by submitting an issue there.
 
