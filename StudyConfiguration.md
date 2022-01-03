@@ -402,30 +402,40 @@ the right there is also a widget that can be used to
 preview the settings for your sources.
 
 ### 2.6.1. Default Source Values
-This section defines defaults for a lot of the common
-columns for sources. If one of these values is not included
-for a source, the defaults here will be used instead.
+This section defines defaults for some source parameters
+to avoid repetition in entering values that are constant
+for most sources. If one of the parameters that has a
+default is not included for a specific source, the default
+value will be used instead.
 
-The Default Source Values also allow you to define normal
+The _Default Source Values_ allows you to define normal
 distributions for the initial number of followers and 
-credibility scores of sources. This functionality is not 
-provided on a per-source basis. The normal distributions for 
-the initial credibility and followers is configured by setting 
-the mean and standard deviation of the distributions. These 
-values are then used to sample the initial credibility and 
-followers of sources when a new game is started.
+credibility scores of sources. This random sampling of
+the initial number of followers and credibility for
+sources is not available on a per-source basis. The normal
+distributions for the initial credibility and followers is
+configured by setting the mean and standard deviation of
+the distributions. These values are then used to sample
+the initial credibility and followers of sources from a
+normal distribution with that mean and standard deviation
+when a new game is started.
 
 The sampling of initial credibility values is truncated to
 between 0 and 100 credibility. The sampling of initial
-follower values is also truncated such that the values are 
-always greater than zero, and always within 5 SDs of the 
-mean. The 5 SD constraint is used to avoid random huge 
-deviations from the expected distribution. The chances of a 
-value being selected outside M +/- 5 SD is tiny (0.00006%), 
-and therefore this should not affect the shape of the 
-distributions noticeably.
+follower count values is also truncated such that source's
+follower counts are never negative, and are always within
+5 standard deviations of the mean. The 5 SD constraint
+is used to avoid random huge deviations from the expected
+distribution. The chances of a value being selected outside
+the mean +/- 5 SD is tiny (0.00006%), and therefore this
+should not affect the shape of the distributions noticeably.
 
-### Sources Table
+An example preview of the distributions of the follower
+count and credibility for a source is shown below,
+
+<img src="screenshots/example-config-source-preview.png" alt="An example source in the game interface" height="484" />
+
+### 2.6.2. Sources Table
 The table below the Default Source Values is where all sources 
 can be added. Each row in this table represents one source. 
 The **ID**, **Name**, and **Avatar** of each source is 
