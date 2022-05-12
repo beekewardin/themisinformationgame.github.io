@@ -1,6 +1,7 @@
 ---
 title: Non Technical Installation
 showPath: true
+path: /NonTechnicalInstallation
 ---
 
 # Misinformation Game Installation Guide 
