@@ -1,3 +1,9 @@
+---
+title: NonTechnicalInstallGuide
+showPath: True
+permalink: /NonTechnicalInstallGuide
+---
+
 # Misinformation Game Installation Guide 
 ## 1. Introduction 
 This document will outline the step-by-step process of installing and hosting the Misinformation Game website. This document will also go through the installation process for all the pre-requisite software that is needed to properly install and edit the app. 
