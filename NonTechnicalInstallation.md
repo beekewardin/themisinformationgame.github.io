@@ -1,7 +1,6 @@
 ---
-title: NonTechnicalInstallGuide
-showPath: True
-permalink: /NonTechnicalInstallGuide
+title: Non Technical Installation
+showPath: true
 ---
 
 # Misinformation Game Installation Guide 
