@@ -4,12 +4,12 @@ showPath: true
 sitemap: false
 ---
 
-# Example Game
+# Example Games
 {:#intro .no_toc}
 
-The example game may be used to help to understand the basic functionality
-and purpose of The Misinformation Game. The study configuration spreadsheet
-that was used to create the example game can be found [here](/link/ExampleStudy).
+These example games may be used to help to understand the basic functionality
+and purpose of The Misinformation Game. The study configuration spreadsheets
+that were used to create the example games can be found [here](/link/ExampleStudy).
 
 <p class="info">
     If the game doesn't load correctly for you, then that may be caused due
@@ -18,9 +18,11 @@ that was used to create the example game can be found [here](/link/ExampleStudy)
     the <a href="/FirebasePricing">Firebase Pricing Documentation</a>.
 </p>
 
+
 ## Access
 {:#access}
 
-You may access the example game from the following URL:
+You may access example studies from the following URLs:
 
-- [Misinformation Game Link](https://misinformation-game.web.app/study/m1v891krnanahrdi/id?s=hviawth01zo4zxmx)
+- [Single-Post Mode Study](https://try.misinfogame.com/study/0m3eots70fhyo6ns)
+- [Feed Mode Study](https://try.misinfogame.com/study/zc7s3qqh0rrc30cx)
