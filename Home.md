@@ -11,16 +11,19 @@ permalink: /
 
 --------
 
-The Misinformation Game is a social media simulator built to study
-people's behaviour when they interact with social media. To achieve
-this, The Misinformation Game simulates a social media feed for
-research participants. Participants will be shown one fake social
-media post at a time, and they may then react to the post and its
-comments. The Misinformation Game has been designed to be highly
-customisable so that tightly controlled experiences can be created
-for participants. This customisability is a core focus of The
-Misinformation Game, to facilitate the research of a wide array of
-social media related questions.
+<p style="text-align: justify">
+    The Misinformation Game is a social media simulator built to study
+    people's behaviour when they interact with social media. To achieve
+    this, The Misinformation Game simulates a social media feed for
+    research participants. Participants will be shown either a feed of
+    social media posts, or a single social media post at a time, and
+    they may then react to the post and its comments. The Misinformation
+    Game has been designed to be highly customisable so that tightly
+    controlled experiences can be created for participants. This
+    customisability is a core focus of The Misinformation Game,
+    to facilitate the research of a wide array of social media
+    related questions.
+</p>
 
 **Preprint Paper:** [PsyArXiv](https://psyarxiv.com/628wc/)
 
@@ -74,23 +77,9 @@ the results that are made available for your analysis are
 described on the [Results](/Results) page.
 
 To conduct a study using The Misinformation Game, you will
-need to host your own website for the game using
-[Google Firebase](https://cloud.google.com/firestore/docs/client/get-firebase).
-The steps to host your own instance of the game are described
-in both a
-[Non-Technical Installation Guide](/NonTechnicalInstallation)
-and a [Technical Installation Guide](/TechnicalInstallation).
-If you are proficient with the command-line and installing
-technical tools, then the technical installation guide will
-be quicker, and requires fewer steps. However, if you are
-not familiar with these technologies, then the non-technical
-installation guide should be easier to follow. Additionally,
-while Firebase has a generous free tier, if you wish to run
-large studies or studies with many images, then you should
-consult the
-[Firebase Pricing Documentation](/FirebasePricing) to estimate
-your hosting costs. In our experience, the hosting costs for
-the Misinformation Game have been minimal.
+need to host your own website for the game. Your options to
+host your own instance of the game are described on the
+[Installation](/Installation) page.
 
 
 
@@ -111,11 +100,9 @@ the Misinformation Game have been minimal.
 ## Hosting Documentation
 {:#hosting-docs}
 
+- [Installation](/Installation) -
+  Describes the options for hosting your own instance of the Misinformation Game.
 - [Firebase Pricing](/FirebasePricing) - A guide to estimate the hosting costs of running a study.
-- [Non-Technical Installation Guide](/NonTechnicalInstallation) -
-  A guide to host your own study using Firebase (longer, for non-technical users).
-- [Technical Installation Guide](/TechnicalInstallation) -
-  A guide to host your own study using Firebase (shorter, for technical users).
 - [Updating your Installation](/Updating) -
   A guide to retrieve new features and fixes for your installation.
 
